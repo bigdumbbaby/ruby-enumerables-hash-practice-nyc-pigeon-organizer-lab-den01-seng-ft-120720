@@ -5,7 +5,9 @@ def nyc_pigeon_organizer(data)
     binding.pry
     value.each do |color_key, names| 
       names.each do |name|
-        if output_array[name = ]
+        if !output_array[name]
+          output_array[name] = {}
+        end
       end
     end
     
